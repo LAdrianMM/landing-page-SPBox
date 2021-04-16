@@ -1,0 +1,29 @@
+.back {
+  width: 220px;
+  height: 50px;
+  margin: 25px;
+}
+.card {
+  width: 90%;
+  max-height: 700px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 12px rgba(51, 51, 51, 0.39);
+
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.info-banner {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 50%;
+  }
+}
