@@ -17,7 +17,7 @@ const Banner = () => {
               <Carousel.Item key={item.id}>
                 <Link to={`/info/${item.id}`}>
                   <img
-                    style={{height: '80vh', width: '100%', objectFit: 'cover'}}
+                    style={{height: '82vh', width: '100%', objectFit: 'cover'}}
                     src={item.url}
                     alt={item.title}
                   />
